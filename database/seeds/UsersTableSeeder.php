@@ -12,8 +12,8 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
          /*  factory(\App\User::class, 1)->create(); */
- 
-          DB::table('Category_posts')->insert([
+
+          DB::table('users')->insert([
             [
                 'name' => 'Alaercio',
                 'email' => 'alaercio@veganices.com.br',
@@ -58,7 +58,7 @@ class UsersTableSeeder extends Seeder
                 'provider' => true,
                 'created_at' => NOW(),
                 'updated_at' => NOW(),
-            ], 
-        ]); 
+            ],
+        ]);
     }
 }

@@ -15,13 +15,13 @@ class PostsTableSeeder extends Seeder
          DB::table('posts')->insert([
             [
                 'uri' => 'blabla bçla bala bla',
-                'user_id' => '1',
-                'Category_id' => '1',
+                'user_id' => 1,
+                'Category_id' => 1,
                 'title' => 'power rangers',
                 'subtitle' => 'homemm aranha',
                 'cover'=>'imagem masssa',
                 'content' =>'conteudo massa',
-                'views' =>(30),
+                'views' => 30,
                 'created_at' => NOW(),
                 'updated_at' => NOW(),
             ],

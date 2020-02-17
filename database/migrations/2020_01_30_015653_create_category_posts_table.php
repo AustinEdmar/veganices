@@ -15,7 +15,9 @@ class CreateCategoryPostsTable extends Migration
     {
         Schema::create('category_posts', function (Blueprint $table) {
             $table->integerIncrements('id');
-            $table->string('category');
+            $table->string('name');
+            $table->timestamps();
+            $table->softDeletes();
         });
     }
 
