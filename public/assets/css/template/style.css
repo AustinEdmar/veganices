@@ -1,0 +1,60 @@
+#menuHeader {
+    transition: 0.6s;
+    background-color: rgb(100, 100, 100, .3);
+}
+
+#iconeMenu {
+    font-size: 40px;
+    line-height: 40px;
+    color: #ffffff;
+}
+
+#botaoMenu:focus {
+    outline: thin dotted;
+    outline: 0px auto;
+    outline-offset: 0px;
+}
+
+#navBar {
+    transition: 0.7s;
+}
+
+.nav-link {
+    transition: 0.5s;
+}
+
+/* Perfil do Usuário */
+
+#img-perfil{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#button-perfil{
+    text-decoration: none;
+    transition: 0.6s;
+}
+#button-perfil span{
+    transition: 0.6s;
+}
+
+#button-perfil:hover{
+    background-color: rgb(100, 100, 100, .4);
+}
+
+#fundo-modal{
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img-user{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+#div-user{
+    line-height: 200px;
+}
